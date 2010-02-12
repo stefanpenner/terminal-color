@@ -5,13 +5,11 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "terminal-color"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{adds color and style modifiers to ruby's string, for pretty terminal output}
+    gem.description = %Q{accents ruby's native String class, with methods such as blue,green,bold,italic. to provide colored and styled terminal output}
     gem.email = "stefan.penner@gmail.com"
     gem.homepage = "http://github.com/stefanpenner/terminal-color"
-    gem.authors = ["Stefan Penner"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+    gem.authors = ["Stefan Penner","Burke Libbey"]
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
